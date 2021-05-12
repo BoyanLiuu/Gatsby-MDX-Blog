@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `Boyan's Gatsby Blog`,
-        description: `A Blog built by Gatsby`,
-        author: `Boyan Liu`,
+        title: `Boyan's Gatsby Blog`, // Displayed in header
+        description: `A Blog built by Gatsby`, // Site description
+        author: `Boyan Liu`, // Your name
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
