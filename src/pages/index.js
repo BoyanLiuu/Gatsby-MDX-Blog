@@ -20,7 +20,7 @@ const IndexPage = () => (
         <p>
             <Link to='/about'>Go to about</Link> <br />
             <Link to='/archives'>Go to archives</Link> <br />
-            <Link to='/posts'>Go to posts</Link> <br />
+            <Link to='/blog'>Go to posts</Link> <br />
             <Link to='/tags'>Go to tags</Link> <br />
         </p>
     </Layout>
