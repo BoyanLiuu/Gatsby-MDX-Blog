@@ -4,19 +4,31 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
+import styled from 'styled-components'
+
+const StyledImg = styled.div`
+    border-radius: 10rem;
+    width: 20rem;
+`
 
 const IndexPage = () => (
     <Layout>
         <Seo title='Home' />
         <h1>Hi people</h1>
-        <StaticImage
-            src='../images/gatsby-astronauts.png'
-            width={300}
-            quality={95}
-            formats={['AUTO', 'WEBP', 'AVIF']}
-            alt='A Gatsby astronaut'
-            style={{ marginBottom: `1.45rem` }}
-        />
+        <StyledImg>
+            <StaticImage
+                src='../images/Me.jpg'
+                alt='My Profile'
+                placeholder='blurred'
+                layout='fixed'
+                width={200}
+                height={200}
+                style={{
+                    borderRadius: '10rem',
+                }}
+            />
+        </StyledImg>
+
         <p>
             <Link to='/about'>Go to about</Link> <br />
             <Link to='/archives'>Go to archives</Link> <br />
