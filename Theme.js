@@ -25,8 +25,22 @@ export const GlobalStyle = createGlobalStyle`
     body{
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1.6rem;
         overflow-y: scroll;
+    }
+    p {
+        line-height:1.75;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    h2{
+        font-size:2.4rem;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        margin-top: 2.8rem;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+        color: rgb(1, 1, 1);
     }
     a {
         text-decoration: none;

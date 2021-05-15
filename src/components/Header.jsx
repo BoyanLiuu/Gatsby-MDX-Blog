@@ -27,7 +27,7 @@ const StyledHeader = styled.div`
         column-gap: 2rem;
         margin-top: 1.6rem;
         a {
-            color: black;
+            color: rgb(1, 1, 1);
         }
     }
 `

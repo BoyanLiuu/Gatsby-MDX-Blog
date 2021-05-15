@@ -14,6 +14,15 @@ const StyledLayout = styled.div`
     grid-template-rows: auto 1fr auto;
     /* row-gap: 2.5rem; */
     row-gap: 2rem;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 70.4rem;
+        justify-self: center;
+        padding: 0rem 2rem;
+    }
 `
 
 const Layout = ({ children }) => {
